@@ -30,7 +30,7 @@ This project is about the website that allows to generate a quick passenger list
 
 ### Screenshots of some of the  Web Pages of this project :
 
- 1. User interface of Blue-WildFlower-Club website
+ 1. User interface of AUTOtrainLIST website
 <img src="https://github.com/PrathuashaKB/Auto-Train-List/blob/main/images/step1.PNG" width="100%"> 
 
 #### "Suggestions and project improvement are invited"
