@@ -1,5 +1,5 @@
 # Auto-Train-List
-Auto-Train-List, a website to instantly generates passengers list.
+Auto-Train-List, a website to instantly generate passengers list.
 
 ### About :
 This project is about the website that allows to generate a quick passenger list who are travelling in train. The users of this website could be able to enter the basic credentials like passenger name, phone number, train number, station of boarding and departuring and DOJ and can generate the passengers-list.  
