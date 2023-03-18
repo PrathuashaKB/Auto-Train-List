@@ -1,0 +1,132 @@
+/*styling for index.html*/
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,0.1)),url('images/train5.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman','Open Sans','Helvetica Neue',Helvetica, sans-serif;
+    line-height: 1.45;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.399); 
+  max-width: 100%;
+  padding: 30px 0;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left; 
+  color: white;
+  font-size: 1.3rem;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 6px;
+    list-style-type: none;
+}
+nav ul li a {
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-decoration: none;
+}
+nav ul li a:hover,
+a.active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #efe3e35b;
+    border-radius: 5px;
+}
+.content-box{ 
+  margin: 220px auto;
+  padding: 10px 30px 20px 30px;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.399); 
+  color: white;
+  font-size: 2rem;
+}
+.content-box a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: #efe3e35b;
+}
+
+.content-box a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #1918185b;
+    border-radius: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+/* styling for about*/
+#about{
+    margin: 120px auto;
+    max-width: 1000px;
+    font-size: 2rem;
+}
+
+#about p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* styling for contact*/
+#contact{
+    margin: 180px auto;
+    max-width: 1000px;
+    font-size: 1.5rem;
+}
+#contact p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+form{
+    background-color: rgba(1, 1, 1, 0.671);
+    color:white;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.btn{
+    color: black;
+    padding: 10px;
+    background-color: #f5f2f2b9;
+    border: none; 
+}
+
+.btn:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #1918185b;
+    border-radius: 5px;
+}
+
+.social{
+    text-align: center;
+}
+
+.social img{
+    width: 50px;
+    margin: 0 40px;
+    cursor: pointer;
+}

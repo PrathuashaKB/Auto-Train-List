@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootsrap Stylesheet CDN -->
+  <!-- Latest compiled and minified CSS -->
+  <!--link rel="stylesheet" href="style1.css"-->
+  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
+  <title>AUTOtrainLIST</title>
+  <style>
+    body{
+      font-family:'Times New Roman', Times, serif;
+    }
+    header{
+      max-width: 100%;
+      padding: 170px 0;
+      font-family:'Times New Roman', Times, serif;
+      text-align: center; 
+      color: white;
+      font-size: 1.5rem;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,0.1)),url('images/train5.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
+    }
+     header p{
+      background-color: rgba(0, 0, 0, 0.399);
+      max-width: 700px;
+      margin: 50px auto; 
+     }
+    
+    body {
+      background-color: white;
+    }
+
+    label{
+      font-size: 1.5rem;
+    }
+    
+    input{
+      background-color: rgba(0, 0, 0, 0.399);
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .btn{
+      color: #fff;
+      background-color: rgba(1, 1, 1, 0.671);
+      font-size: 1.3rem;
+    }
+
+    button:hover{
+      background-color: #efe3e35b;
+    }
+
+    table{
+      background-color:white;
+      font-size: 1.2rem;
+      font-weight: lighter;
+    }
+
+    thead{
+      background-color: rgba(1, 1, 1, 0.671);
+      font-size: 1.5rem;
+      color:white;
+      border-radius: 10px;
+    }
+    footer {
+          background: rgba(1, 1, 1, 0.742);
+          padding: 32px 0;
+          text-align: center;
+          color: #868686;
+          font-size: 0.75rem;
+        } 
+   footer ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        }
+    footer li {
+          display: inline-block;
+        }
+    footer li a {
+          padding: 6px;
+          font-size: 1.3rem;
+          color: #c3c3c3;
+        }
+    footer li a:hover {
+            color: white;
+            text-decoration: none;
+        }
+  </style>
+</head>
+
+<body>
+  <!-- Container -->
+  <header class="content">
+    <p><strong style="font-size: 2rem;">AUTOtrainLIST</strong><br>
+      Here is the quickest way to create <strong>passenger manifest</strong>
+    </p>
+  </header>
+  <div class="container">
+    <h2 class="text-center mt-4 mb-5"><img src="images/logo.PNG" alt="" width="60" height="50">AUTOtrainLIST</h2>
+    <!-- Form Section -->
+    <form id="passenger">
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="name">Passenger Name</label>
+          <input type="text" class="form-control input-lg" id="name" placeholder="Enter Passenger Name" required />
+        </div>
+        <div class="form-group col-md-4">
+          <label for="number">Phone Number</label>
+          <input type="tel" class="form-control input-lg" id="number" placeholder="Enter Phone Number" maxlength="11"
+            required />
+        </div>
+        <div class="form-group col-md-4">
+          <label for="tnumber">Train Number</label>
+          <input type="tel" class="form-control input-lg" id="tnumber" placeholder="Enter Train Number" maxlength="6"
+            required />
+        </div>
+        <div class="form-group col-sm-4 col-6 col-sm-4">
+          <label for="from">From</label>
+          <input type="text" class="form-control input-lg" id="from" required placeholder="From where?" />
+        </div>
+        <div class="form-group col-sm-4 col-6 col-sm-4">
+          <label for="to">To</label>
+          <input type="text" class="form-control input-lg outline-success" id="to" required placeholder="To Where?" />
+        </div>
+        <div class="form-group col-sm-4 col-6 col-sm-4">
+          <label for="date">Date of Jounery</label>
+          <input type="date" class="form-control input-lg" id="date" required />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-lg btn-block">
+        Get LIST Now!
+      </button>
+    </form>
+    <center><p>(If you press the same Get LIST Now! button you will get the complete chart that shows upgraded passenger details.)</p></center>
+  </div>
+
+  <hr />
+
+  <!-- Passenger List With Table Content -->
+  <div class="container">
+    <h2 class="text-center mt-5">Passenger List</h2>
+
+    <table border="1" class="table table-hover mt-5 text-center table-responsive-md table-responsive-sm">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Phone Number</th>
+          <th>Train Number</th>
+          <th>From</th>
+          <th>To</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="passenger-list"></tbody>
+    </table>
+  </div>
+
+  <!-- Credit Section -->
+  <footer class="credit text-center mt-5">
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <p>&copy; All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS Link -->
+  <script src="main.js"></script>
+</body>
+
+</html>
