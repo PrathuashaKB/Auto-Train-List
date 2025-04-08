@@ -1,10 +1,26 @@
-# Auto-Train-List
-Auto-Train-List, a website to instantly generate passengers list.
+# AutoTrainList
 
-### About :
-This project is about the website that allows to generate a quick passenger list who are travelling in train. The users of this website could be able to enter the basic credentials like passenger name, phone number, train number, station of boarding and departuring and DOJ and can generate the passengers-list.  
+<div>
+  <p align="center">
+    <img src="https://github.com/PrathuashaKB/Auto-Train-List/blob/main/images/AutoTrainList%20Logo.png" width="800"> 
+  </p>
+</div>
 
-<span style="color:blue">**This Website is built for following purpose:**</span>
+🚆*Instantly Generate Your Train Passenger Manifest!*
+
+AutoTrainList is a lightweight, responsive web application built to simplify the process of capturing and managing passenger data for train travel. Users can easily enter details such as passenger name, contact number, train number, source and destination stations, and the journey date — and the system instantly generates a structured passenger list.
+This project was developed as part of **Assignment_2** for the Web Development subject, and showcases the ability to use HTML, CSS, JavaScript, and Bootstrap together for practical frontend development.
+It serves as a hands-on implementation of frontend technologies, demonstrating how real-world transport-based forms and manifests can be digitalized for efficiency.
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![OS](https://img.shields.io/badge/OS-Windows-blue?style=flat&logo=windows)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Chrome](https://img.shields.io/badge/Browser-Chrome-4285F4?style=flat&logo=google-chrome&logoColor=white)
+
+### This Website is built for following purpose :
 
   1. Collection of basic credentials of passengers.
 
@@ -33,6 +49,6 @@ This project is about the website that allows to generate a quick passenger list
  1. User interface of AUTOtrainLIST website
 <img src="https://github.com/PrathuashaKB/Auto-Train-List/blob/main/images/step1.PNG" width="100%"> 
 
-#### "Suggestions and project improvement are invited"
+#### Suggestions and project improvement are invited!
 
 #### Prathuasha K B
