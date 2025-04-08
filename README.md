@@ -55,7 +55,7 @@ It serves as a hands-on implementation of frontend technologies, demonstrating h
 
 ### Screenshots of some of the  Web Pages of this project :
 
- 1. User interface of AUTOtrainLIST website
+User interface of AUTOtrainLIST website
 <img src="https://github.com/PrathuashaKB/Auto-Train-List/blob/main/images/step1.PNG" width="100%"> 
 
 #### Suggestions and project improvement are invited!
