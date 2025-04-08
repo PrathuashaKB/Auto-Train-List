@@ -28,6 +28,15 @@ It serves as a hands-on implementation of frontend technologies, demonstrating h
 
   3. Contact and know about us.
 
+### Features
+1. Dynamic input and manifest generation
+
+2. Clean form structure with validation-ready fields
+
+3. Responsive layout using Bootstrap
+
+4. Easy-to-read passenger list output
+
 ### Technologies used :
 
   1. HTML
